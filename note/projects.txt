@@ -1,0 +1,11 @@
+- VERCEL PROJECTS:
+    - Medi Notes Pro $ Business ideas
+        -- summarize doctor's note the visit for the doctor and provide an email
+        -- Provide Summary of visit for the doctor's records, Next steps for the doctor Draft of email to patient in patient-friendly language
+
+
+- AWS PROJECTS:
+    - Medi Notes Pro $ Business ideas
+        -- summarize doctor's note the visit for the doctor and provide an email
+        -- Provide Summary of visit for the doctor's records, Next steps for the doctor Draft of email to patient in patient-friendly language
+

@@ -1,0 +1,38 @@
+websites
+=================
+https://vercel.com/
+    - deploy application
+fastapi-clerk-auth(https://dashboard.clerk.com/)
+    - authentication platform
+
+
+vercel env add GOOGLE_API_KEY
+vercel env add GOOGLE_API_KEY preview
+vercel env add GOOGLE_API_KEY development
+
+vercel link
+
+vercel .
+
+vercel --prod
+
+vercel 
+
+New preview: https://instant-cyh2bao7b-ai-engineer5.vercel.app 
+
+FRONTEND
+============
+Redux: Application framework
+Typescript(Javascript variant)
+*APP*/PAGES ROUTER
+*client*/server side
+npx create-next-app saas --ts --eslint --tailwind --no-src-dir --no-app
+
+
+AWS
+=======
+brew install awscli
+
+
+aws lightsal
+    - optional for deployment like lambdal and app runner
