@@ -92,3 +92,18 @@ Key Terminology:
         - terraform apply,  
         - terraform destroy 
 
+GitHub Actions for Continuous Deployment of AI Apps: integrating GitHub Actions into the deployment process to automate project builds.
+    GitHub Actions to automate deployments with every code push to the repository, enhancing workflow efficiency.
+    enabling Continuous Integration/Continuous Deployment (CI/CD). GitHub Actions allow scripts to run automatically 
+        in response to events like code pushes.
+
+Workflows and Jobs:
+    Workflows are defined using YAML files and consist of sequences of jobs triggered by specific events.
+    Jobs are executed on virtual machines within the GitHub environment.
+    Versatility of GitHub Actions: GitHub Actions can be used for additional tasks beyond CI/CD, such as generating documentation or code reviews.
+    Comparison with Other CI/CD Tools: GitHub Actions demostrates simplicity and seamless integration, unlike other CI/CD platforms like Jenkins 
+        that may offer more features but require more configuration.
+
+
+RESOURCE EXPLORER:
+    - on AWS helps to see at a glance all the running resources and manage them
