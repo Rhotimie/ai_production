@@ -36,3 +36,59 @@ brew install awscli
 
 aws lightsal
     - optional for deployment like lambdal and app runner
+
+CDK: AWS version of terraform
+
+CLOUD DEPLOMENT ARCHETYPES 
+-------------------------------------
+    traditional cloud server - IAAS 
+        - digital ocean, hetzner, EC2
+
+    Platform as a services - PAAS 
+        - heroku, vercel, Beanstalk
+
+    container as a services
+        - dockerhub, app runner 
+
+    container orchestration:
+        - kubernetes, docker swarm, ECS & EKS
+
+    Serverless Architecture / Serverless functions
+        - function as a service 
+        - Lambda
+
+Terms:
+    - Amazon S3: simple storage service
+    - AWS lambda: individual functions on the cloud
+    - Amazon cloudfront: content delivery network, similar to cloudinary
+    - Amazon API Gateway: create, manage and scale APIs
+    - Amazon bedrock: for quickly building AI applications by connecting to LLM
+
+
+Digital Twin Architecture:
+    - Backend:
+        - Lmbda: business logic
+        - Bedrock: talk to LLM
+        - S3: memory conversation history
+        - API Gateway: routes
+    - FRONTEND
+        - S3: frontend static site
+        - cloudfront distribution: 
+
+Terraform is a robust tool for managing infrastructure as code (IaC). 
+
+Infrastructure as Code (IaC): Managing infrastructure through code, allowing for automation and version control.
+Terraform: A popular IaC tool that works across cloud providers such as AWS, GCP, and Azure.
+Key Terminology:
+    Provider: Cloud vendors Terraform works with (e.g., AWS).
+    Variable: Parameters controlling deployments.
+    Resource: Building blocks of infrastructure (e.g., S3 buckets).
+    State: Current understanding of the infrastructure by Terraform.
+    Output: Deployment results like URLs.
+    Workspace: Isolated environments for different states (development, testing, production).
+        - Each worspace / environment should have their different IAM users
+    Basic Commands: Introduction to essential Terraform commands for infrastructure management like 
+        - terraform init, 
+        - terraform apply,  
+        - terraform destroy 
+
