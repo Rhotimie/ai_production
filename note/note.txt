@@ -4,6 +4,8 @@ https://vercel.com/
     - deploy application
 fastapi-clerk-auth(https://dashboard.clerk.com/)
     - authentication platform
+semgrep(https://semgrep.dev)
+    - cyber security
 
 
 vercel env add GOOGLE_API_KEY
@@ -42,20 +44,37 @@ CDK: AWS version of terraform
 CLOUD DEPLOMENT ARCHETYPES 
 -------------------------------------
     traditional cloud server - IAAS 
-        - digital ocean, hetzner, EC2
+        - digital ocean, 
+        - hetzner, 
+        - EC2(AWS)
+        - Virtual Machines(Azure)
+        - Google compute engine(GCP)
 
     Platform as a services - PAAS 
-        - heroku, vercel, Beanstalk
+        - heroku
+        - vercel
+        - Beanstalk(AWS)
+        - App service(Azure)
+        - Google App engine(GCP)
 
     container as a services
-        - dockerhub, app runner 
+        - dockerhub
+        - app runner(AWS)
+        - Azure Container Apps(Azure)
+        - Cloud Run(GCP)
 
     container orchestration:
-        - kubernetes, docker swarm, ECS & EKS
+        - kubernetes, 
+        - docker swarm, 
+        - ECS & EKS(AWS)
+        - Azure kubernetes service(Azure)
+        - Google kubernetes engine(GCP)
 
     Serverless Architecture / Serverless functions
         - function as a service 
-        - Lambda
+        - Lambda(AWS)
+        - Azure Functions(Azure)
+        - Cloud Functions(GCP)
 
 Terms:
     - Amazon S3: simple storage service
