@@ -126,3 +126,23 @@ Workflows and Jobs:
 
 RESOURCE EXPLORER:
     - on AWS helps to see at a glance all the running resources and manage them
+
+
+Differences between Amazon SageMaker and Bedrock for deploying custom AI models in production. 
+
+SageMaker is positioned as a comprehensive AWS service for end-to-end machine learning, mainly used for deploying  
+    open-source models in inference mode rather than for training.
+
+Key points include:
+    SageMaker vs. Bedrock: 
+        - SageMaker allows for building, training, and deploying custom models
+        - Bedrock simplifies the process by providing access to pre-trained foundation models through an API without extensive customization.
+
+    MLOps: 
+        - involve managing the lifecycle of machine learning models, including tracking experiments, versioning, and monitoring performance 
+            to address issues like model drift.
+
+    Data engineering for the AI platform "Alex," which will focus on creating data pipelines and transforming text into vectors for storage, 
+        using SageMaker endpoints.
+
+    Overall, it prepares you for practical applications of SageMaker in deploying and managing AI models effectively.

@@ -9,3 +9,17 @@
         -- summarize doctor's note the visit for the doctor and provide an email
         -- Provide Summary of visit for the doctor's records, Next steps for the doctor Draft of email to patient in patient-friendly language
 
+- CYBER SECURITY: is an AI-powered web application that analyzes Python code for security vulnerabilities. It combines:
+    - OpenAI's latest models for intelligent code analysis
+    - Semgrep for static security scanning
+    - A React/Next.js frontend
+    - A FastAPI backend
+    - Docker containerization
+    - Cloud deployment with Terraform
+    - AZure & GCP deployment
+
+- ALEX 
+    - financial planner
+    - The Agentic Learning Equities Explainer
+    - Act as a financial planner
+    - Review Equities portfolio, make retirement plans
