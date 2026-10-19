@@ -6,6 +6,16 @@ fastapi-clerk-auth(https://dashboard.clerk.com/)
     - authentication platform
 semgrep(https://semgrep.dev)
     - cyber security
+langfuse.com 
+    - observability 
+eodhd.com 
+    - similar to polygon/marketplaces for fetching stock data
+
+Agent platforms: integrated solutioon for building and deploying AI agents in managed infrastructure
+    - CrewAI Enterprise 
+    - LangGraph platform 
+    - Vertex AI Agent Builder / Agent Engine 
+    - Amazon bedrock agentcore
 
 
 vercel env add GOOGLE_API_KEY
@@ -146,3 +156,35 @@ Key points include:
         using SageMaker endpoints.
 
     Overall, it prepares you for practical applications of SageMaker in deploying and managing AI models effectively.
+
+
+Data Engineering:
+    - ETL (Extract, Transform, Load) process, which is vital for transitioning data from its source to a target format.
+    - scalable data processing frameworks like Spark and Beam to efficiently manage large datasets in real-time or batch modes. 
+    - The medallion architecture is introduced, which organizes data storage into three tiers: bronze (raw data), silver (normalized data), 
+        and gold (final consumable data), illustrating best practices in data engineering.
+
+Enterprise Grade AI:
+    Monitoring
+
+    Scalability: 
+        Emphasis is placed on the need for applications to scale to handle spikes in demand, as well as the advantages of a serverless 
+        architecture for cost efficiency.
+    Security: 
+        The lecture underscores the importance of best practices in cybersecurity to safeguard sensitive data and maintain system integrity.
+    Monitoring: 
+        It discusses the vital role of monitoring tools for production environments, emphasizing the necessity of alerts and tracking 
+        mechanisms for operational smoothness.
+    Guardrails: 
+        The necessity of implementing checks in large language models (LLMs) to manage their inputs and outputs is covered, ensuring predictable behavior.
+    Explainability: 
+        While once a major concern, explainability is now manageable through guidelines, focusing on clarity in AI decision-making.
+    Observability: 
+        The final point discusses observability, which allows for comprehensive insights into system performance, aiding in better 
+        management and optimization.
+
+Simon Wilson's Lethal Trifecta 
+    - Access to private data 
+    - Access to untrusted content 
+    - Ability to externally coommunicate 
+
